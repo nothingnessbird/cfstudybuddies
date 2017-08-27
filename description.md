@@ -1,0 +1,3 @@
+Welcome to CF Study Buddies! This site is designed to match you with buddies to study with from Code 201. You will fill out a brief form to determine your preferences, and then receive matches based on your input. We strive to make sure you are matched with the best possible study buddies, so you won't be too overwhelmed, especially as you go on into 301.
+
+We are a group of students in Code 201, who have really seen how useful having people to study with can be. We believe we achieve our best work when we work together. We hope to match you with someone who matches your preferences and complements your skills. If you would like to know more about the developers of this page, check out our <a> About Me <a> section! 
