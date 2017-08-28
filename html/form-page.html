@@ -7,7 +7,30 @@
     <link rel="stylesheet" href="/css/master.css">
   </head>
   <body>
-
+    <form class="" action="index.html" method="post">
+      <table>
+        <tr>
+          <td><label for="name">Please enter your first name:</label></td>
+          <td><input required type="text" name="name" placeholder="Your Name Here"></td>
+        </tr>
+        <tr>
+          <td><label for="owlBird">Are you an early bird or a night owl?</label></td>
+          <td><select required class="questions" name="ownBird">
+            <option selected disabled>Please Choose One</option>
+            <option value="bird">Early Bird</option>
+            <option value="owl">Night Owl</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td><label for="personality">Are you and introvert or an extrovert?</label></td>
+          <td><select required class="questions" name="personality">
+            <option selected disabled>Please Choose One</option>
+            <option value="intro">Introvert</option>
+            <option value="extro">Extrovert</option>
+          </select></td>
+        </tr>
+      </table>
+    </form>
   </body>
   <script type="text/javascript" src="/js/form.js"></script>
 </html>
