@@ -16,7 +16,11 @@ function Buddy (name,birdOwl,personality) {
 var buddyArray = [];
 var kinley = ['Kinley','owl','intro'];
 var asha = ['Asha','bird','extro'];
-var nameArray = [kinley, asha];
+var ariel = ['Ariel','owl','intro'];
+var java = ['Java','owl','intro'];
+var tiger = ['Tiger','bird','extro'];
+var marco = ['Marco','bird','extro'];
+var nameArray = [kinley, asha, ariel, java, tiger, marco];
 
 for (var i = 0; i < nameArray.length; i++) {
   var buddyName = nameArray[i][0];
