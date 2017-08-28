@@ -10,4 +10,9 @@ function formHarvester(event) {
   var owlBird = this.elements.owlBird.value;
   var personality = this.elements.personality.value;
   userArray.push(name,owlBird,personality);
+  sendToLocal();
+};
+
+function sendToLocal () {
+  localStorage.userData = JSON.stringify(userArray);
 };
