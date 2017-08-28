@@ -6,4 +6,12 @@ h1 {
   font-family: 'Cutive Mono', monospace;
   font-weight: normal;
   font-size: 70px;
+  text-align: center;
+}
+
+#aboutCFStudy {
+  border: thin solid black;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
 }
