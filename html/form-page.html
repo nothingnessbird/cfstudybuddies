@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="../css/master.css">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
   </head>
-  <header>
-    <h1>~/CFStudy/form</h1>
-  </header>
   <body>
-    <form class="" action="index.html" method="post">
+    <header>
+      <h1>~/CFStudy/form</h1>
+    </header>
+    <form class="" action="index.html" method="post" id="form">
       <table>
         <tr>
           <td><label for="name">Please enter your first name:</label></td>
@@ -19,7 +19,7 @@
         </tr>
         <tr>
           <td><label for="owlBird">Are you an early bird or a night owl?</label></td>
-          <td><select required class="questions" name="ownBird">
+          <td><select required class="questions" name="owlBird">
             <option selected disabled>Please Choose One</option>
             <option value="bird">Early Bird</option>
             <option value="owl">Night Owl</option>
@@ -38,10 +38,10 @@
         </tr>
       </table>
     </form>
+    <footer>
+      <a href="results-page.html"> Match up Results</a>
+      <a href="index.html"> Landing page</a>
+    </footer>
   </body>
-<footer>
-  <a href="results-page.html"> Match up Results</a>
-  <a href="index.html"> Landing page</a>
-</footer>
-  <script type="text/javascript" src="/js/form.js"></script>
+  <script type="text/javascript" src="../js/form.js"></script>
 </html>
