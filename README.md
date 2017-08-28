@@ -8,7 +8,7 @@ Study Buddy Finder for Code Fellows 201
 [letter of your name] -------[file name]-------[what feature you are working on]
 
 
-Each person works on a different files. (HTML, CSS, javascript).
+Each person works on a different files. (HTML, CSS, javascript ).
 however, If two people work on the same file then they pair program together.
 
 Check the problem domain then, pseudo code. Explain with the group and let everyone
@@ -23,4 +23,4 @@ when /
 
 build a constructor function buddy object with two question(into/extrovert night/owl)
 a scoring function; with a form harvester
-set value 
+set value
