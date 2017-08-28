@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: normal;
+  font-size: 70px;
+}
