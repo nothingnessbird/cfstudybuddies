@@ -13,12 +13,14 @@ function Buddy (name,birdOwl,personality) {
   addBuddy();
 };
 
-var infoArray = [['Kinley','owl','intro']];
 var buddyArray = [];
+var kinley = ['Kinley','owl','intro'];
+var asha = ['Asha','bird','extro'];
+var nameArray = [kinley, asha];
 
-for (var i = 0; i < infoArray.length; i++) {
-  var buddyName = infoArray[i][0];
-  var buddyBirdOwl = infoArray[i][1];
-  var buddyPersonality = infoArray[i][2];
+for (var i = 0; i < nameArray.length; i++) {
+  var buddyName = nameArray[i][0];
+  var buddyBirdOwl = nameArray[i][1];
+  var buddyPersonality = nameArray[i][2];
   var buddy = new Buddy(buddyName,buddyBirdOwl,buddyPersonality);
 }
