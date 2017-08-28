@@ -5,7 +5,7 @@ var form = document.getElementById('form');
 form.addEventListener('submit',formHarvester);
 
 function formHarvester(event) {
-  event.preventDefault();
+  // event.preventDefault();
   var name = this.elements.name.value;
   var owlBird = this.elements.owlBird.value;
   var personality = this.elements.personality.value;
