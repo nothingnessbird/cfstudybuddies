@@ -20,7 +20,3 @@ how/ this is pseudo code
 why/ These are user stories
 where/
 when /
-
-build a constructor function buddy object with two question(into/extrovert night/owl)
-a scoring function; with a form harvester
-set value
