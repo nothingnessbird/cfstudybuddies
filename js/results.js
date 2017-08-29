@@ -40,7 +40,7 @@ function buddyMaker () {
     var buddyPersonality = nameArray[i][3];
     var buddyNoise = nameArray[i][4];
     var buddyCatDog = nameArray[i][5];
-    var buddy = new Buddy(buddyName,buddyPortrait,buddyBirdOwl,buddyPersonality);
+    var buddy = new Buddy(buddyName,buddyPortrait,buddyBirdOwl,buddyPersonality,buddyNoise,buddyCatDog);
     buddyArray.push(buddy);
   };
 };
