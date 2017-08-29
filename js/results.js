@@ -85,17 +85,19 @@ function topMatchMaker () {
 
 topMatchMaker();
 
-topMatches;
-for (var i = 0; i < topMatches.length; i++) {
+var resultsRender = function(){
+  for (var i = 0; i < topMatches.length; i++) {
   // topMatches[i].name.
-  var matchDiv = document.getElementById('match');
-  var matchFig = document.createElement('figure');
-  var matchPort = document.createElement('img');
-  matchPort.src = topMatches[i].portrait;
-  matchFig.innerHTML(matchPort);
-  matchDiv.appendChild(matchFig);
-}
+    var matchDiv = document.getElementById('match');
+    var matchFig = document.createElement('figure');
+    var matchPort = document.createElement('img');
+    matchPort.src = topMatches[i].portrait;
+    matchFig.appendChild (matchPort);
+    matchDiv.appendChild(matchFig);
+  }
+};
 
+resultsRender();
 // /////each buddy object has filepath../img/ "portrait" is SRC
 // pull from the array,//access information
 // create elelment img// for each of the matches in the array
