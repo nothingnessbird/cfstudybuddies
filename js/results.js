@@ -15,6 +15,18 @@ var ariel = ['Ariel','owl','intro'];
 var java = ['Java','owl','intro'];
 var tiger = ['Tiger','bird','extro'];
 var marco = ['Marco','bird','extro'];
+var chelsea = ['chelsea','owl','extro'];
+var maxW = ['Max','owl','intro'];
+var nathan = ['Nathan','bird','extro'];
+var davidL = ['David L','bird','intro'];
+var cody = ['Cody','owl','intro'];
+var mark = ['Mark',' ','extro'];
+var matt = ['Matt','owl','intro'];
+var davidJ = ['David J','owl','intro'];
+var gabriel = ['Gabriel','bird','intro'];
+var shannon = ['Shannon','bird','intro'];
+var mikey = ['Mikey','bird','intro'];
+
 
 var nameArray = [kinley, asha, ariel, java, tiger, marco];
 
