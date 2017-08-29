@@ -9,7 +9,9 @@ function formHarvester(event) {
   var name = this.elements.name.value;
   var owlBird = this.elements.owlBird.value;
   var personality = this.elements.personality.value;
-  userArray.push(name,owlBird,personality);
+  var noise = this.elements.noise.value;
+  var catDog = this.elements.catDog.value;
+  userArray.push(name, owlBird, personality, noise, catDog);
   sendToLocal();
 };
 
