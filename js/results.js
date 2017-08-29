@@ -82,3 +82,21 @@ function topMatchMaker () {
 };
 
 topMatchMaker();
+
+topMatches;
+for (var i = 0; i < topMatches.length; i++) {
+  // topMatches[i].name.
+  var matchDiv = document.getElementById('match');
+  var matchFig = document.createElement('figure');
+  var matchPort = document.createElement('img');
+  matchPort.src = topMatches[i].portrait;
+  matchFig.innerHTML(matchPort);
+  matchDiv.appendChild(matchFig);
+}
+
+// /////each buddy object has filepath../img/ "portrait" is SRC
+// pull from the array,//access information
+// create elelment img// for each of the matches in the array
+// //append the innter text src to be the image and the append the elemlent.
+// /////Set a caption using the name property index for each match.
+// ////percentage.
