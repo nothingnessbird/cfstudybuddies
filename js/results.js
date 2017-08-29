@@ -1,7 +1,8 @@
 'use strict';
 
-function Buddy (name,birdOwl,personality) {
+function Buddy (name,portrait,birdOwl,personality) {
   this.name = name;
+  this.portrait = portrait;
   this.birdOwl = birdOwl;
   this.personality = personality;
   this.tally = 0;
@@ -32,9 +33,10 @@ var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan,
 function buddyMaker () {
   for (var i = 0; i < nameArray.length; i++) {
     var buddyName = nameArray[i][0];
-    var buddyBirdOwl = nameArray[i][1];
-    var buddyPersonality = nameArray[i][2];
-    var buddy = new Buddy(buddyName,buddyBirdOwl,buddyPersonality);
+    var buddyPortrait = nameArray[i][1];
+    var buddyBirdOwl = nameArray[i][2];
+    var buddyPersonality = nameArray[i][3];
+    var buddy = new Buddy(buddyName,buddyPortrait,buddyBirdOwl,buddyPersonality);
     buddyArray.push(buddy);
   };
 };
