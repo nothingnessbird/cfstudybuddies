@@ -67,7 +67,7 @@ function matchAnalyzer () {
   });
 };
 
-// matchAnalyzer();
+matchAnalyzer();
 
 function topMatchMaker () {
   for (var i = 0; i < 3; i++) {
@@ -81,4 +81,4 @@ function topMatchMaker () {
   };
 };
 
-// topMatchMaker();
+topMatchMaker();
