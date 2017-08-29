@@ -43,5 +43,6 @@ function scoreMaker () {
       buddyArray[i].tally++;
     if (user.personality = buddyArray[i].personality)
       buddyArray[i].tally++;
-  }
+  };
 };
+scoreMaker();
