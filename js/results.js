@@ -20,15 +20,14 @@ var maxW = ['Max','owl','intro'];
 var nathan = ['Nathan','bird','extro'];
 var davidL = ['David L','bird','intro'];
 var cody = ['Cody','owl','intro'];
-var mark = ['Mark',' ','extro'];
+var mark = ['Mark','bird','extro'];
 var matt = ['Matt','owl','intro'];
 var davidJ = ['David J','owl','intro'];
 var gabriel = ['Gabriel','bird','intro'];
 var shannon = ['Shannon','bird','intro'];
 var mikey = ['Mikey','bird','intro'];
 
-
-var nameArray = [kinley, asha, ariel, java, tiger, marco];
+var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan, davidL, cody, mark, matt, davidJ, grabriel, shannon, mikey];
 
 function buddyMaker () {
   for (var i = 0; i < nameArray.length; i++) {
