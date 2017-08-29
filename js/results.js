@@ -59,9 +59,10 @@ function scoreMaker () {
 scoreMaker();
 
 var topMatches = [];
+var sortArray = buddyArray;
 
 function matchAnalyzer () {
-  buddyArray.sort(function(a, b) {
+  sortArray.sort(function(a, b) {
     return parseInt(b.tally) - parseInt(a.tally);
   });
 };
@@ -70,12 +71,12 @@ function matchAnalyzer () {
 
 function topMatchMaker () {
   for (var i = 0; i < 3; i++) {
-    if (buddyArray[i].name === 'Asha' || buddyArray[i].name === 'Java') {
+    if (sortArray[i].name === 'Asha' || sortArray[i].name === 'Java') {
+      topMatches.push(sortArray[i]);
+      sortArray.splice(i,1);
       i--;
-      topMatches.push(buddyArray[i]);
-      buddyArray.splice(i,1);
     } else {
-      topMatches.push(buddyArray[i]);
+      topMatches.push(sortArray[i]);
     };
   };
 };
