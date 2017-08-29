@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/master.css">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
   </head>
-  <body>
+  <body id="form-body">
     <header>
       <h1>~/CFStudy/form</h1>
     </header>
@@ -31,6 +31,26 @@
             <option selected disabled>Please Choose One</option>
             <option value="intro">Introvert</option>
             <option value="extro">Extrovert</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td><label for="noise">What noise level do you like while studying?</label></td>
+          <td><select required class="questions" name="noise">
+            <option selected disabled>Please Choose One</option>
+            <option value="quiet">total quiet</option>
+            <option value="music">music</option>
+            <option value="talk">talking with companions</option>
+            <option value="busy">a busy and loud room</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td><label for="catDog">Do you prefer cats or dogs?</label></td>
+          <td><select required class="questions" name="catDog">
+            <option selected disabled>Please Choose One</option>
+            <option value="cat">cats</option>
+            <option value="dog">dogs</option>
+            <option value="both">I love both!</option>
+            <option value="neither">I don't like either.</option>
           </select></td>
         </tr>
         <tr>

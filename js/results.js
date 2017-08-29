@@ -59,9 +59,26 @@ function scoreMaker () {
 scoreMaker();
 
 var topMatches = [];
+var sortArray = buddyArray;
 
 function matchAnalyzer () {
-  buddyArray.sort(function(a, b) {
+  sortArray.sort(function(a, b) {
     return parseInt(b.tally) - parseInt(a.tally);
   });
 };
+
+matchAnalyzer();
+
+function topMatchMaker () {
+  for (var i = 0; i < 3; i++) {
+    if (sortArray[i].name === 'Asha' || sortArray[i].name === 'Java') {
+      topMatches.push(sortArray[i]);
+      sortArray.splice(i,1);
+      i--;
+    } else {
+      topMatches.push(sortArray[i]);
+    };
+  };
+};
+
+topMatchMaker();
