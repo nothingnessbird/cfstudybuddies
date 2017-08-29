@@ -14,39 +14,39 @@ var buddyArray = [];
 
 var user = [];
 
-var kinley = ['Kinley','../img/kinley.jpg','owl','intro','talk','both'];
+var kinley = ['Kinley','img/kinley.jpg','owl','intro','talk','both'];
 
-var asha = ['Asha','../img/asha.png','bird','extro','talk','both'];
+var asha = ['Asha','img/asha.png','bird','extro','talk','both'];
 
-var ariel = ['Ariel','../img/ariel.jpg','owl','intro','music','cat'];
+var ariel = ['Ariel','img/ariel.jpg','owl','intro','music','cat'];
 
-var java = ['Java','../img/java.jpg','owl','intro','quiet','cat'];
+var java = ['Java','img/java.jpg','owl','intro','quiet','cat'];
 
-var tiger = ['Tiger','../img/tiger.png','bird','extro','quiet','dog'];
+var tiger = ['Tiger','img/tiger.png','bird','extro','quiet','dog'];
 
-var marco = ['Marco','../img/marco.png','bird','extro','talk','both'];
+var marco = ['Marco','img/marco.png','bird','extro','talk','both'];
 
-var chelsea = ['Chelsea','../img/chelsea.png','owl','extro','talk','dog'];
+var chelsea = ['Chelsea','img/chelsea.png','owl','extro','talk','dog'];
 
-var maxW = ['Max','owl','../img/maxW.png','intro','music','both'];
+var maxW = ['Max','owl','img/maxW.png','intro','music','both'];
 
-var nathan = ['Nathan','../img/nathan.png','bird','extro','talk','dog'];
+var nathan = ['Nathan','img/nathan.png','bird','extro','talk','dog'];
 
-var davidL = ['David L','../img/davidL.png','bird','intro','music','dog'];
+var davidL = ['David L','img/davidL.png','bird','intro','music','dog'];
 
-var cody = ['Cody','../img/cody.png','owl','intro','music','cat'];
+var cody = ['Cody','img/cody.png','owl','intro','music','cat'];
 
-var mark = ['Mark','../img/mark.png','bird','extro','busy','dog'];
+var mark = ['Mark','img/mark.png','bird','extro','busy','dog'];
 
-var matt = ['Matt','../img/matt.png','owl','intro','music','dog'];
+var matt = ['Matt','img/matt.png','owl','intro','music','dog'];
 
-var davidJ = ['David J','../img/davidJ.png','owl','intro','quiet','dog'];
+var davidJ = ['David J','img/davidJ.png','owl','intro','quiet','dog'];
 
-var gabriel = ['Gabriel','../img/gabriel.png','bird','intro','quiet','cat'];
+var gabriel = ['Gabriel','img/gabriel.png','bird','intro','quiet','cat'];
 
-var shannon = ['Shannon','../img/shannon.png','bird','intro','talk','dog'];
+var shannon = ['Shannon','img/shannon.png','bird','intro','talk','dog'];
 
-var mikey = ['Mikey','../img/mikey.png','bird','intro','music','dog'];
+var mikey = ['Mikey','img/mikey.png','bird','intro','music','dog'];
 
 var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan, davidL, cody, mark, matt, davidJ, gabriel, shannon, mikey];
 
@@ -110,7 +110,6 @@ topMatchMaker();
 
 var resultsRender = function(){
   for (var i = 0; i < topMatches.length; i++) {
-  // topMatches[i].name.
     var matchDiv = document.getElementById('match');
     var matchFig = document.createElement('figure');
     var matchPort = document.createElement('img');
@@ -124,4 +123,3 @@ var resultsRender = function(){
 };
 
 resultsRender();
-// /////Set a caption using the name property index for each match.
