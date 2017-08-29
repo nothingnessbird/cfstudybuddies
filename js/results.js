@@ -11,23 +11,41 @@ function Buddy (name,portrait,birdOwl,personality,noise,catDog) {
 };
 
 var buddyArray = [];
+
 var user = [];
+
 var kinley = ['Kinley','../img/kinley.jpg','owl','intro','talk','both'];
+
 var asha = ['Asha','../img/asha.png','bird','extro','talk','both'];
+
 var ariel = ['Ariel','../img/ariel.jpg','owl','intro','music','cat'];
+
 var java = ['Java','../img/java.jpg','owl','intro','quiet','cat'];
+
 var tiger = ['Tiger','../img/tiger.png','bird','extro','quiet','dog'];
+
 var marco = ['Marco','../img/marco.png','bird','extro','talk','both'];
+
 var chelsea = ['Chelsea','../img/chelsea.png','owl','extro','talk','dog'];
+
 var maxW = ['Max','owl','../img/maxW.png','intro','music','both'];
+
 var nathan = ['Nathan','../img/nathan.png','bird','extro','talk','dog'];
+
 var davidL = ['David L','../img/davidL.png','bird','intro','music','dog'];
+
 var cody = ['Cody','../img/cody.png','owl','intro','music','cat'];
+
 var mark = ['Mark','../img/mark.png','bird','extro','busy','dog'];
+
 var matt = ['Matt','../img/matt.png','owl','intro','music','dog'];
+
 var davidJ = ['David J','../img/davidJ.png','owl','intro','quiet','dog'];
+
 var gabriel = ['Gabriel','../img/gabriel.png','bird','intro','quiet','cat'];
+
 var shannon = ['Shannon','../img/shannon.png','bird','intro','talk','dog'];
+
 var mikey = ['Mikey','../img/mikey.png','bird','intro','music','dog'];
 
 var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan, davidL, cody, mark, matt, davidJ, gabriel, shannon, mikey];
@@ -65,6 +83,7 @@ function scoreMaker () {
 scoreMaker();
 
 var topMatches = [];
+
 var sortArray = buddyArray;
 
 function matchAnalyzer () {
