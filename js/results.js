@@ -94,13 +94,11 @@ var resultsRender = function(){
     matchPort.src = topMatches[i].portrait;
     matchFig.appendChild (matchPort);
     matchDiv.appendChild(matchFig);
+    var figCaption = document.createElement('figcaption');
+    figCaption.innerHTML = topMatches[i].name;
+    matchFig.appendChild(figCaption);
   }
 };
 
 resultsRender();
-// /////each buddy object has filepath../img/ "portrait" is SRC
-// pull from the array,//access information
-// create elelment img// for each of the matches in the array
-// //append the innter text src to be the image and the append the elemlent.
 // /////Set a caption using the name property index for each match.
-// ////percentage.
