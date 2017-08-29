@@ -65,3 +65,19 @@ function matchAnalyzer () {
     return parseInt(b.tally) - parseInt(a.tally);
   });
 };
+
+// matchAnalyzer();
+
+function topMatchMaker () {
+  for (var i = 0; i < 3; i++) {
+    if (buddyArray[i].name === 'Asha' || buddyArray[i].name === 'Java') {
+      i--;
+      topMatches.push(buddyArray[i]);
+      buddyArray.splice(i,1);
+    } else {
+      topMatches.push(buddyArray[i]);
+    };
+  };
+};
+
+// topMatchMaker();
