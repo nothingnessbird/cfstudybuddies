@@ -26,8 +26,6 @@ var davidJ = ['David J','owl','intro'];
 var gabriel = ['Gabriel','bird','intro'];
 var shannon = ['Shannon','bird','intro'];
 var mikey = ['Mikey','bird','intro'];
-
-
 var nameArray = [kinley, asha, ariel, java, tiger, marco];
 
 function buddyMaker () {

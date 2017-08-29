@@ -15,12 +15,8 @@ Check the problem domain then, pseudo code. Explain with the group and let every
 weigh in so that everyone understands what is being coded and anyone can pickup where
 you left off.
 
-How/ This is the problem domain
-what/ this is pseudo code
+How/ this is pseudo code
+what/  This is the problem domain
 why/ These are user stories
 where/
 when /
-
-build a constructor function buddy object with two question(into/extrovert night/owl)
-a scoring function; with a form harvester
-set value
