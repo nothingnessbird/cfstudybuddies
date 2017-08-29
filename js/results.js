@@ -1,11 +1,12 @@
 'use strict';
 
-function Buddy (name,portrait,birdOwl,personality,noise) {
+function Buddy (name,portrait,birdOwl,personality,noise,catDog) {
   this.name = name;
   this.portrait = portrait;
   this.birdOwl = birdOwl;
   this.personality = personality;
   this.noise = noise;
+  this.catDog = catDog;
   this.tally = 0;
 };
 
@@ -38,6 +39,7 @@ function buddyMaker () {
     var buddyBirdOwl = nameArray[i][2];
     var buddyPersonality = nameArray[i][3];
     var buddyNoise = nameArray[i][4];
+    var buddyCatDog = nameArray[i][5];
     var buddy = new Buddy(buddyName,buddyPortrait,buddyBirdOwl,buddyPersonality);
     buddyArray.push(buddy);
   };
