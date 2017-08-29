@@ -27,7 +27,7 @@ var gabriel = ['Gabriel','bird','intro'];
 var shannon = ['Shannon','bird','intro'];
 var mikey = ['Mikey','bird','intro'];
 
-var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan, davidL, cody, mark, matt, davidJ, grabriel, shannon, mikey];
+var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan, davidL, cody, mark, matt, davidJ, gabriel, shannon, mikey];
 
 function buddyMaker () {
   for (var i = 0; i < nameArray.length; i++) {
@@ -57,3 +57,11 @@ function scoreMaker () {
   };
 };
 scoreMaker();
+
+var topMatches = [];
+
+function matchAnalyzer () {
+  buddyArray.sort(function(a, b) {
+    return parseInt(b.tally) - parseInt(a.tally);
+  });
+};
