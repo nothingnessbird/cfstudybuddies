@@ -9,23 +9,23 @@ function Buddy (name,birdOwl,personality) {
 
 var buddyArray = [];
 var user = [];
-var kinley = ['Kinley','owl','intro'];
-var asha = ['Asha','bird','extro'];
-var ariel = ['Ariel','owl','intro'];
-var java = ['Java','owl','intro'];
-var tiger = ['Tiger','bird','extro'];
-var marco = ['Marco','bird','extro'];
-var chelsea = ['Chelsea','owl','extro'];
-var maxW = ['Max','owl','intro'];
-var nathan = ['Nathan','bird','extro'];
-var davidL = ['David L','bird','intro'];
-var cody = ['Cody','owl','intro'];
-var mark = ['Mark','bird','extro'];
-var matt = ['Matt','owl','intro'];
-var davidJ = ['David J','owl','intro'];
-var gabriel = ['Gabriel','bird','intro'];
-var shannon = ['Shannon','bird','intro'];
-var mikey = ['Mikey','bird','intro'];
+var kinley = ['Kinley','../img/kinley.jpg','owl','intro'];
+var asha = ['Asha','../img/asha.png','bird','extro'];
+var ariel = ['Ariel','../img/ariel.jpg','owl','intro'];
+var java = ['Java','../img/java.jpg','owl','intro'];
+var tiger = ['Tiger','../img/tiger.png','bird','extro'];
+var marco = ['Marco','../img/marco.png','bird','extro'];
+var chelsea = ['Chelsea','../img/chelsea.png','owl','extro'];
+var maxW = ['Max','owl','../img/maxW.png','intro'];
+var nathan = ['Nathan','../img/nathan.png','bird','extro'];
+var davidL = ['David L','../img/davidL.png','bird','intro'];
+var cody = ['Cody','../img/cody.png','owl','intro'];
+var mark = ['Mark','../img/mark.png','bird','extro'];
+var matt = ['Matt','../img/matt.png','owl','intro'];
+var davidJ = ['David J','../img/davidJ.png','owl','intro'];
+var gabriel = ['Gabriel','../img/gabriel.png','bird','intro'];
+var shannon = ['Shannon','../img/shannon.png','bird','intro'];
+var mikey = ['Mikey','../img/mikey.png','bird','intro'];
 
 var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan, davidL, cody, mark, matt, davidJ, gabriel, shannon, mikey];
 
