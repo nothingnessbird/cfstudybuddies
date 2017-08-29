@@ -15,6 +15,7 @@ var ariel = ['Ariel','owl','intro'];
 var java = ['Java','owl','intro'];
 var tiger = ['Tiger','bird','extro'];
 var marco = ['Marco','bird','extro'];
+
 var nameArray = [kinley, asha, ariel, java, tiger, marco];
 
 function buddyMaker () {
