@@ -71,17 +71,6 @@ function getFromLocal () {
 
 getFromLocal();
 
-function scoreMaker () {
-  user = new Buddy(user[0], user[1], user[2]);
-  for (var i = 0; i < buddyArray.length; i++) {
-    if (user.birdOwl === buddyArray[i].birdOwl)
-      buddyArray[i].tally++;
-    if (user.personality = buddyArray[i].personality)
-      buddyArray[i].tally++;
-  };
-};
-scoreMaker();
-
 var topMatches = [];
 
 var sortArray = buddyArray;
