@@ -20,7 +20,7 @@ function formHarvester(event) {
   var lang = this.elements.lang.value;
   var math = this.elements.math.value;
 
-  userArray.push(name, owlBird, personality, noise, catDog,hogwarts,travel,snacks,drinks,loc,vehicle,lang,math);
+  userArray.push(name, owlBird, personality, noise, catDog, hogwarts, travel, snacks, drinks, loc, vehicle, lang, math);
   sendToLocal();
 };
 
