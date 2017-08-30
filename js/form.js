@@ -11,7 +11,16 @@ function formHarvester(event) {
   var personality = this.elements.personality.value;
   var noise = this.elements.noise.value;
   var catDog = this.elements.catDog.value;
-  userArray.push(name, owlBird, personality, noise, catDog);
+  var hogwarts = this.elements.hogwarts.value;
+  var travel = this.elements.travel.value;
+  var snacks = this.elements.snacks.value;
+  var drinks = this.elements.drinks.value;
+  var loc = this.elements.loc.value;
+  var vehicle = this.elements.vehicle.value;
+  var lang = this.elements.lang.value;
+  var math = this.elements.math.value;
+
+  userArray.push(name, owlBird, personality, noise, catDog,hogwarts,travel,snacks,drinks,loc,vehicle,lang,math);
   sendToLocal();
 };
 

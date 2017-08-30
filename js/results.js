@@ -88,8 +88,6 @@ getFromLocal();
 
 scoreMaker();
 
-var topMatches = [];
-
 var sortArray = buddyArray;
 
 function matchAnalyzer () {
