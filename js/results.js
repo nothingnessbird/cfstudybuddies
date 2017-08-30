@@ -1,6 +1,6 @@
 'use strict';
 
-function Buddy (name,portrait,birdOwl,personality,noise,catDog,hogwarts,travel,beverage,loc,vehicle,lang,math) {
+function Buddy (name,portrait,birdOwl,personality,noise,catDog,hogwarts,travel,drinks,loc,vehicle,lang,math) {
   this.name = name;
   this.portrait = portrait;
   this.birdOwl = birdOwl;
@@ -9,7 +9,7 @@ function Buddy (name,portrait,birdOwl,personality,noise,catDog,hogwarts,travel,b
   this.catDog = catDog;
   this.hogwarts = hogwarts;
   this.travel = travel;
-  this.beverage = beverage;
+  this.drinks = drinks;
   this.loc = loc;
   this.vehicle = vehicle;
   this.lang = lang;
