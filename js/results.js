@@ -1,13 +1,21 @@
 'use strict';
 
-function Buddy (name,portrait,birdOwl,personality,noise,catDog) {
+function Buddy (name,portrait,birdOwl,personality,noise,catDog,hogwarts,travel,beverage,loc,vehicle,language,mathematician) {
   this.name = name;
   this.portrait = portrait;
   this.birdOwl = birdOwl;
   this.personality = personality;
   this.noise = noise;
   this.catDog = catDog;
+  this.hogwarts = hogwarts;
+  this.travel = travel;
+  this.beverage = beverage;
+  this.loc = loc;
+  this.vehicle = vehicle;
+  this.language = language;
+  this.mathematician = mathematician;
   this.tally = 0;
+  this.percentMatch = 0;
 };
 
 var buddyArray = [];
@@ -58,7 +66,14 @@ function buddyMaker () {
     var buddyPersonality = nameArray[i][3];
     var buddyNoise = nameArray[i][4];
     var buddyCatDog = nameArray[i][5];
-    var buddy = new Buddy(buddyName,buddyPortrait,buddyBirdOwl,buddyPersonality,buddyNoise,buddyCatDog);
+    var buddyHogwarts = nameArray[i][6];
+    var buddyTravel = nameArray[i][7];
+    var buddyBeverage = nameArray[i][8];
+    var buddyLoc = nameArray[i][9];
+    var buddyVehicle = nameArray[i][10];
+    var buddyLanguage = nameArray[i][11];
+    var buddyMathematician = nameArray[i][12];
+    var buddy = new Buddy(buddyName,buddyPortrait,buddyBirdOwl,buddyPersonality,buddyNoise,buddyCatDog,buddybuddyHogwarts,buddyTravel,buddyBeverage,buddyLoc,buddyVehicle,buddyLanguage,buddyMathematician);
     buddyArray.push(buddy);
   };
 };
