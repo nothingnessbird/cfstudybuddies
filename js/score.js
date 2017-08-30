@@ -94,9 +94,16 @@ function scoreMaker () {
     if (user.hogwarts === 'r') {
       if (buddyArray[i].hogwarts === 'r'){
         buddyArray[i].tally += 2;
-      } else {
+      }
+      else {
         buddyArray[i].tally++;
       }
+    }
+    if (user.travel === buddyArray[i].travel) {
+      buddyArray[i].tally++;
+    }
+    if (user.drinks === buddyArray[i].drinks) {
+      buddyArray[i].tally++;
     }
   };
 };
