@@ -111,6 +111,12 @@ function scoreMaker () {
     if (user.vehicle === buddyArray[i].vehicle) {
       buddyArray[i].tally++;
     }
+    if (!user.lang === buddyArray[i].lang) {
+      buddyArray[i].tally += 4;
+    }
+    if (user.math === buddyArray[i].math) {
+      buddyArray[i].tally++;
+    }
   };
 };
 scoreMaker();
