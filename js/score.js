@@ -14,7 +14,30 @@ function scoreMaker () {
         buddyArray[i].tally += 2;
       }
     }
-    
+    if (user.noise === 'music'){
+      if (buddyArray[i].noise === 'music') {
+        buddyArray[i].tally += 2;
+      }
+      else if (buddyArray[i].noise === 'quiet'){
+        buddyArray[i].tally ++;
+      }
+    }
+    if (user.noise === 'talk'){
+      if (buddyArray[i].noise === 'talk'){
+        buddyArray[i].tally += 2;
+      }
+      else if (buddyArray[i].noise === 'music'){
+        buddyArray[i].tally ++;
+      }
+    }
+    if (user.noise === 'busy'){
+      if (buddyArray[i].noise === 'busy'){
+        buddyArray[i].tally += 2;
+      }
+      else if (buddyArray[i].noise === 'talk' || buddyArray[i].noise === 'music') {
+        buddyArray[i].tally ++;
+      }
+    }
   };
 };
 scoreMaker();
