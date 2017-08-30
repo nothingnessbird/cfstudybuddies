@@ -14,39 +14,39 @@ var buddyArray = [];
 
 var user = [];
 
-var kinley = ['Kinley','img/kinley.jpg','owl','intro','talk','both'];
+var kinley = ['Kinley','img/kinley.jpg','owl','intro','talk','both','r','cloak','beer', 'couch','bus','js','al'];
 
-var asha = ['Asha','img/asha.png','bird','extro','talk','both'];
+var asha = ['Asha','img/asha.png','bird','extro','talk','both','h','backpack','dragon','water','couch','bus','js','al'];
 
-var ariel = ['Ariel','img/ariel.jpg','owl','intro','music','cat'];
+var ariel = ['Ariel','img/ariel.jpg','owl','intro','music','cat','r','cloak','chips','tea','cafe','bus','js','al'];
 
-var java = ['Java','img/java.jpg','owl','intro','quiet','cat'];
+var java = ['Java','img/java.jpg','owl','intro','quiet','cat','s','sonic','chips','water','couch','bat','js','gh'];
 
-var tiger = ['Tiger','img/tiger.png','bird','extro','quiet','dog'];
+var tiger = ['Tiger','img/tiger.png','bird','extro','quiet','dog', 'h','belt','nosnacks','tears','desk','bus','html','gh'];
 
-var marco = ['Marco','img/marco.png','bird','extro','talk','both'];
+var marco = ['Marco','img/marco.png','bird','extro','talk','both','g','backpack','healthy','coffee','desk','tie','html','mlb'];
 
-var chelsea = ['Chelsea','img/chelsea.png','owl','extro','talk','dog'];
+var chelsea = ['Chelsea','img/chelsea.png','owl','extro','talk','dog','g','sonic','pizza','coffee','cafe','bat','js','gh'];
 
-var maxW = ['Max','owl','img/maxW.png','intro','music','both'];
+var maxW = ['Max','owl','img/maxW.png','intro','music','both','r','belt','pizza','soft','desk','bat','js','al'];
 
-var nathan = ['Nathan','img/nathan.png','bird','extro','talk','dog'];
+var nathan = ['Nathan','img/nathan.png','bird','extro','talk','dog','r','belt','chips','energy','school','tie','js','gb'];
 
-var davidL = ['David L','img/davidL.png','bird','intro','music','dog'];
+var davidL = ['David L','img/davidL.png','bird','intro','music','dog','idk','belt','chips','tea','desk','tie','css','al'];
 
-var cody = ['Cody','img/cody.png','owl','intro','music','cat'];
+var cody = ['Cody','img/cody.png','owl','intro','music','cat','s','sonic','chips','water','couch','bat','js','al'];
 
-var mark = ['Mark','img/mark.png','bird','extro','busy','dog'];
+var mark = ['Mark','img/mark.png','bird','extro','busy','dog','idk','belt','healthy','beer','cafe','bus','js','ad'];
 
-var matt = ['Matt','img/matt.png','owl','intro','music','dog'];
+var matt = ['Matt','img/matt.png','owl','intro','music','dog','idk','belt','pizza','beer','desk','bat','js','al'];
 
-var davidJ = ['David J','img/davidJ.png','owl','intro','quiet','dog'];
+var davidJ = ['David J','img/davidJ.png','owl','intro','quiet','dog','g','backpack','pizza','juice','school','bus','css','mlb'];
 
-var gabriel = ['Gabriel','img/gabriel.png','bird','intro','quiet','cat'];
+var gabriel = ['Gabriel','img/gabriel.png','bird','intro','quiet','cat','g','cloak','pizza','coffe','school','tie','js','gh'];
 
-var shannon = ['Shannon','img/shannon.png','bird','intro','talk','dog'];
+var shannon = ['Shannon','img/shannon.png','bird','intro','talk','dog','idk','cloak','healthy','water','school','bat','html','al'];
 
-var mikey = ['Mikey','img/mikey.png','bird','intro','music','dog'];
+var mikey = ['Mikey','img/mikey.png','bird','intro','music','dog','idk','cloak','dragon','tea','couch','tie','html','al'];
 
 var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan, davidL, cody, mark, matt, davidJ, gabriel, shannon, mikey];
 
