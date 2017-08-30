@@ -10,47 +10,50 @@ h1 {
 }
 
 #aboutCFStudy {
+  clear: both;
   border: thin solid black;
   background-color: rgb(255, 255, 255);
   width: 50%;
   margin: auto;
   padding: 10px;
 }
-#landing-page-body {
+body {
     background:
-        -moz-radial-gradient(rgb(49, 103, 241) 7%, transparent 7%),
-        -moz-radial-gradient(rgb(49, 103, 241) 7%, transparent 7%),
+        -moz-radial-gradient(blue 15%, transparent 16%),
+        -moz-radial-gradient(blue 15%, transparent 16%),
         white;
     background:
-        -webkit-radial-gradient(rgb(49, 103, 241) 7%, transparent 7%),
-        -webkit-radial-gradient(rgb(49, 103, 241) 7%, transparent 7%),
+        -webkit-radial-gradient(blue 5%, transparent 5%),
+        -webkit-radial-gradient(blue 5%, transparent 5%),
         white;
     background-position: 0 20, 10px 10px;
 
-    -webkit-background-size:30px 30px;
-    -moz-background-size:30px 30px;
-    background-size:30px 30px;
+    -webkit-background-size:60px 60px;
+    -moz-background-size:60px 60px;
+    background-size:60px 60px;
 }
 
 nav {
-  float: right;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+
   ul {
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
   }
 }
 
 li {
+  list-style-type: none;
   float: left;
-  position: relative;
+  color: black;
 }
   a {
     display: block;
     padding: 0 20px;
-    line-height: $nav-height;
-    background: $nav-background;
-    color: $nav-font-color;
+    color: black;
     text-decoration: none;
   }
 }

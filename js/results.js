@@ -112,6 +112,7 @@ var resultsRender = function(){
   for (var i = 0; i < topMatches.length; i++) {
     var matchDiv = document.getElementById('match');
     var matchFig = document.createElement('figure');
+    matchFig.setAttribute('class', 'matchStyle-box');
     var matchPort = document.createElement('img');
     matchPort.src = topMatches[i].portrait;
     matchFig.appendChild (matchPort);

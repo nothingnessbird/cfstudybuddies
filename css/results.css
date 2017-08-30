@@ -13,3 +13,16 @@
     -moz-background-size:30px 30px;
     background-size:30px 30px;
 }3
+.border-box {
+  border: 1px solid black;
+  width: 50%;
+  background-color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  box-sizing: border-box;
+  color: black;
+}
+.matchStyle-box {
+  border: 1px solid black;
+  background: white;
+}
