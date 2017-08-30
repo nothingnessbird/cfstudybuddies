@@ -15,12 +15,12 @@ function formHarvester(event) {
   var travel = this.elements.travel.value;
   var snacks = this.elements.snacks.value;
   var drinks = this.elements.drinks.value;
-  var studyPlace = this.elements.studyPlace.value;
+  var loc = this.elements.loc.value;
   var vehicle = this.elements.vehicle.value;
   var lang = this.elements.lang.value;
   var math = this.elements.math.value;
 
-  userArray.push(name, owlBird, personality, noise, catDog,hogwarts,travel,snacks,drinks,studyPlace,vehicle,lang,math);
+  userArray.push(name, owlBird, personality, noise, catDog,hogwarts,travel,snacks,drinks,loc,vehicle,lang,math);
   sendToLocal();
 };
 

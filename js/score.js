@@ -105,6 +105,12 @@ function scoreMaker () {
     if (user.drinks === buddyArray[i].drinks) {
       buddyArray[i].tally++;
     }
+    if (user.loc === buddyArray[i].loc) {
+      buddyArray[i].tally++;
+    }
+    if (user.vehicle === buddyArray[i].vehicle) {
+      buddyArray[i].tally++;
+    }
   };
 };
 scoreMaker();
