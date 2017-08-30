@@ -73,7 +73,7 @@ function buddyMaker () {
     var buddyVehicle = nameArray[i][10];
     var buddyLanguage = nameArray[i][11];
     var buddyMathematician = nameArray[i][12];
-    var buddy = new Buddy(buddyName,buddyPortrait,buddyBirdOwl,buddyPersonality,buddyNoise,buddyCatDog,buddybuddyHogwarts,buddyTravel,buddyBeverage,buddyLoc,buddyVehicle,buddyLanguage,buddyMathematician);
+    var buddy = new Buddy(buddyName,buddyPortrait,buddyBirdOwl,buddyPersonality,buddyNoise,buddyCatDog,buddyHogwarts,buddyTravel,buddyBeverage,buddyLoc,buddyVehicle,buddyLanguage,buddyMathematician);
     buddyArray.push(buddy);
   };
 };
@@ -97,6 +97,8 @@ function matchAnalyzer () {
 };
 
 matchAnalyzer();
+
+var topMatches = [];
 
 function topMatchMaker () {
   for (var i = 0; i < 3; i++) {
