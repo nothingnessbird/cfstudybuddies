@@ -67,6 +67,37 @@ function scoreMaker () {
         buddyArray.tally -= 5;
       }
     }
+    if (user.hogwarts === 'h') {
+      if (buddyArray[i].hogwarts === 'h') {
+        buddyArray[i].tally += 2;
+      }
+      else {
+        buddyArray[i].tally++;
+      }
+    }
+    if (user.hogwarts === 'g') {
+      if (buddyArray[i].hogwarts === 'g') {
+        buddyArray[i].tally += 2;
+      }
+      else if (!buddyArray[i].hogwarts === 's') {
+        buddyArray[i].tally++;
+      }
+    }
+    if (user.hogwarts === 's') {
+      if (buddyArray[i].hogwarts === 's') {
+        buddyArray[i].tally += 2;
+      }
+      else if (buddyArray[i].hogwarts === 'r') {
+        buddyArray[i].tally++;
+      }
+    }
+    if (user.hogwarts === 'r') {
+      if (buddyArray[i].hogwarts === 'r'){
+        buddyArray[i].tally += 2;
+      } else {
+        buddyArray[i].tally++;
+      }
+    }
   };
 };
 scoreMaker();
