@@ -119,4 +119,3 @@ function scoreMaker () {
     }
   };
 };
-scoreMaker();

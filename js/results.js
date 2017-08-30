@@ -65,6 +65,8 @@ function buddyMaker () {
 
 buddyMaker();
 
+scoreMaker();
+
 function getFromLocal () {
   user = JSON.parse(localStorage.userData);
 };
