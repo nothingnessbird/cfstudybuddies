@@ -1,6 +1,6 @@
 'use strict';
 
-function Buddy (name,portrait,birdOwl,personality,noise,catDog,hogwarts,travel,beverage,loc,vehicle,language,mathematician) {
+function Buddy (name,portrait,birdOwl,personality,noise,catDog,hogwarts,travel,beverage,loc,vehicle,lang,math) {
   this.name = name;
   this.portrait = portrait;
   this.birdOwl = birdOwl;
@@ -12,8 +12,8 @@ function Buddy (name,portrait,birdOwl,personality,noise,catDog,hogwarts,travel,b
   this.beverage = beverage;
   this.loc = loc;
   this.vehicle = vehicle;
-  this.language = language;
-  this.mathematician = mathematician;
+  this.lang = lang;
+  this.math = math;
   this.tally = 0;
   this.percentMatch = 0;
 };
@@ -86,15 +86,6 @@ function getFromLocal () {
 
 getFromLocal();
 
-function scoreMaker () {
-  user = new Buddy(user[0], user[1], user[2]);
-  for (var i = 0; i < buddyArray.length; i++) {
-    if (user.birdOwl === buddyArray[i].birdOwl)
-      buddyArray[i].tally++;
-    if (user.personality = buddyArray[i].personality)
-      buddyArray[i].tally++;
-  };
-};
 scoreMaker();
 
 var topMatches = [];
