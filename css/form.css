@@ -7,7 +7,8 @@
   box-sizing: border-box;
   color: black;
 }
-#form-body {
+
+#fBody {
     background:
         -moz-radial-gradient(rgb(214, 31, 31) 7%, transparent 7%),
         -moz-radial-gradient(rgb(214, 31, 31) 7%, transparent 7%),
