@@ -1,24 +1,3 @@
-.bBox {
-  border: 5px solid black;
-    width: 97%;
-    padding-top: 50px;
-    margin: auto;
-    box-sizing: border-box;
-    color: #222c3d;
-    background-color: #A9A9A9;
-    border-top-left-radius: 0;
-    border-bottom-right-radius: 28%;
-    margin-top: 10px;
-    font-family: cursive;
-    font-size: large;
-    line-height: 2.5;
-
-}
-
-#form {
-  width: 100%;
-}
-
 #fBody {
     background:
         -moz-radial-gradient(rgb(214, 31, 31) 7%, transparent 7%),

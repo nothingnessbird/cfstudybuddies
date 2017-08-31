@@ -7,36 +7,34 @@ h1 {
   font-weight: normal;
   font-size: 70px;
   text-align: center;
+  width: 50%;
+  margin-left: 32%;
+  background-color: white;
 }
-
 #aboutCFStudy {
   clear: both;
-  border: medium solid black;
-  background-color: rgb(255, 255, 255);
-  width: 50%;
-  margin: 12% auto;
   padding: 10px;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 body {
   background:
-      -moz-radial-gradient(blue 15%, transparent 16%),
-      -moz-radial-gradient(blue 15%, transparent 16%),
+      -moz-radial-gradient(blue 7%, transparent 7%),
+      -moz-radial-gradient(blue 7%, transparent 7%),
       white;
   background:
-      -webkit-radial-gradient(blue 5%, transparent 5%),
-      -webkit-radial-gradient(blue 5%, transparent 5%),
+      -webkit-radial-gradient(blue 7%, transparent 7%),
+      -webkit-radial-gradient(blue 7%, transparent 7%),
       white;
   background-position: 0 20, 10px 10px;
 
-  -webkit-background-size:60px 60px;
-  -moz-background-size:60px 60px;
-  background-size:60px 60px;
+  -webkit-background-size:30px 30px;
+  -moz-background-size:30px 30px;
+  background-size:30px 30px;
 }
 
 nav {
   width: 50%;
-  margin-left: 25%;
+  margin-left: 58.2%;
   margin-right: 25%;
   margin-top: -41px;
 }
@@ -55,37 +53,65 @@ li a {
   padding: 0 20px;
   color: black;
   text-decoration: none;
+  background-color: white;
+  font-family: 'Cutive Mono', monospace;
 }
 #lamp {
   position: fixed;
   bottom: 0;
   left: 10%;
   z-index: -100;
+  height: 80%
 }
 #desk {
   position: fixed;
   bottom: 0;
   left: 25%;
   z-index: -100;
+  width: 60%
 }
 
 #foreground {
   z-index: -100;
 }
-
-#info {
-  width: 60%;
-  margin-left: 53%;
-  text-align: left;
-  display: flex;
-}
-
 .member  {
   border: thin solid black;
-  width: 50%;
-  height: 50%;
+  padding: 1%;
   background-color: white;
-  padding-top: 7%;
   text-align: center;
   margin: 20px;
+  display: inline-flex;
+  line-height: 1.5;
+}
+.scrollable {
+  width: 51.5%;
+  margin-left: 30%;
+  margin-top: 250px;
+  height: 350px;
+  overflow-y: auto;
+  background-color: white;
+  border: 5px solid black;
+  font-family: 'Open Sans', sans-serif;
+}
+#matchLinkDiv {
+  position: fixed;
+  left: 30%;
+  bottom: 19%
+}
+#matchLink {
+  text-decoration: none;
+  color: rgb(120, 235, 217);
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  font-size: larger;
+}
+span {
+  font-weight: bold;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 2em;
+}
+.home {
+  font-weight: bold;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1em;
 }
