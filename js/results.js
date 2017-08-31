@@ -37,7 +37,7 @@ var marco = ['Marco','img/marco.png','bird','extro','talk','both','g','backpack'
 
 var chelsea = ['Chelsea','img/chelsea.png','owl','extro','talk','dog','g','sonic','pizza','coffee','cafe','bat','js','gh'];
 
-var maxW = ['Max W.','owl','img/maxW.png','intro','music','both','r','belt','pizza','soft','desk','bat','js','al'];
+var maxW = ['Max W.','img/maxW.png','owl','intro','music','both','r','belt','pizza','soft','desk','bat','js','al'];
 
 var nathan = ['Nathan','img/nathan.png','bird','extro','talk','dog','r','belt','chips','energy','school','tie','js','gb'];
 
