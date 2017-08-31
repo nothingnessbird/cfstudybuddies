@@ -38,6 +38,7 @@ nav {
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
+  margin-top: -41px;
 }
 ul {
   list-style-type: none;
@@ -70,4 +71,21 @@ li a {
 
 #foreground {
   z-index: -100;
+}
+
+#info {
+  width: 60%;
+  margin-left: 53%;
+  text-align: left;
+  display: flex;
+}
+
+.member  {
+  border: thin solid black;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  padding-top: 7%;
+  text-align: center;
+  margin: 20px;
 }
