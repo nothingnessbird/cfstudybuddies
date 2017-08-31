@@ -99,5 +99,12 @@ li a {
 #match {
   position: fixed;
   left: 30%;
-  bottom: 20%
+  bottom: 19%
+}
+#matchLink {
+  text-decoration: none;
+  color: rgb(120, 235, 217);
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  font-size: larger;
 }
