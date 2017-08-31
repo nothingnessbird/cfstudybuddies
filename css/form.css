@@ -1,16 +1,16 @@
-#bBox {
-  border: 5px solid black;
-  width: 45%;
-  padding-top: 50px;
-  margin: auto;
-  color: #222c3d;
-  background-color: white;
-  border-top-left-radius: 0;
-  border-bottom-right-radius: 28%;
-  margin-top: 10px;
-  font-family: cursive;
-  font-size: large;
-  line-height: 2.5;
+#formBox {
+  /*border: 5px solid black;*/
+  /*width: 45%;*/
+  /*padding-top: 50px;*/
+  /*margin: auto;*/
+  /*color: #222c3d;
+  background-color: white;*/
+  /*border-top-left-radius: 0;
+  border-bottom-right-radius: 28%;*/
+  /*margin-top: 10px;*/
+  /*font-family: cursive;*/
+  /*font-size: large;
+  line-height: 2.5;*/
 }
 #form {
   width: 100%;
