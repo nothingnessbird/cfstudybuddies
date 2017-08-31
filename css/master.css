@@ -8,30 +8,25 @@ h1 {
   font-size: 70px;
   text-align: center;
 }
-
 #aboutCFStudy {
   clear: both;
-  border: medium solid black;
-  background-color: rgb(255, 255, 255);
-  width: 50%;
-  margin: 12% auto;
   padding: 10px;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 body {
   background:
-      -moz-radial-gradient(blue 15%, transparent 16%),
-      -moz-radial-gradient(blue 15%, transparent 16%),
+      -moz-radial-gradient(blue 7%, transparent 7%),
+      -moz-radial-gradient(blue 7%, transparent 7%),
       white;
   background:
-      -webkit-radial-gradient(blue 5%, transparent 5%),
-      -webkit-radial-gradient(blue 5%, transparent 5%),
+      -webkit-radial-gradient(blue 7%, transparent 7%),
+      -webkit-radial-gradient(blue 7%, transparent 7%),
       white;
   background-position: 0 20, 10px 10px;
 
-  -webkit-background-size:60px 60px;
-  -moz-background-size:60px 60px;
-  background-size:60px 60px;
+  -webkit-background-size:30px 30px;
+  -moz-background-size:30px 30px;
+  background-size:30px 30px;
 }
 
 nav {
@@ -100,4 +95,9 @@ li a {
   background-color: white;
   border: 5px solid black;
   font-family: 'Open Sans', sans-serif;
+}
+#match {
+  position: fixed;
+  left: 30%;
+  bottom: 20%
 }
