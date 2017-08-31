@@ -98,7 +98,7 @@ li a {
   border: 5px solid black;
   font-family: 'Open Sans', sans-serif;
 }
-#match {
+#matchLinkDiv {
   position: fixed;
   left: 30%;
   bottom: 19%
