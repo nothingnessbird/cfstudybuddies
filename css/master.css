@@ -7,6 +7,8 @@ h1 {
   font-weight: normal;
   font-size: 70px;
   text-align: center;
+  width: 50%;
+  margin-left: 32%;
 }
 #aboutCFStudy {
   clear: both;
