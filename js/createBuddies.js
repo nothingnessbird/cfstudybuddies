@@ -37,11 +37,11 @@ var marco = ['Marco','img/marco.png','bird','extro','talk','both','g','backpack'
 
 var chelsea = ['Chelsea','img/chelsea.png','owl','extro','talk','dog','g','sonic','pizza','coffee','cafe','bat','js','gh'];
 
-var maxW = ['Max','owl','img/maxW.png','intro','music','both','r','belt','pizza','soft','desk','bat','js','al'];
+var maxW = ['Max W.','img/maxW.png','owl','intro','music','both','r','belt','pizza','soft','desk','bat','js','al'];
 
 var nathan = ['Nathan','img/nathan.png','bird','extro','talk','dog','r','belt','chips','energy','school','tie','js','gb'];
 
-var davidL = ['David L','img/davidL.png','bird','intro','music','dog','idk','belt','chips','tea','desk','tie','css','al'];
+var davidL = ['David L.','img/davidL.png','bird','intro','music','dog','idk','belt','chips','tea','desk','tie','css','al'];
 
 var cody = ['Cody','img/cody.png','owl','intro','music','cat','s','sonic','chips','water','couch','bat','js','al'];
 
@@ -49,7 +49,7 @@ var mark = ['Mark','img/mark.png','bird','extro','busy','dog','idk','belt','heal
 
 var matt = ['Matt','img/matt.png','owl','intro','music','dog','idk','belt','pizza','beer','desk','bat','js','al'];
 
-var davidJ = ['David J','img/davidJ.png','owl','intro','quiet','dog','g','backpack','pizza','juice','school','bus','css','mlb'];
+var davidJ = ['David J.','img/davidJ.png','owl','intro','quiet','dog','g','backpack','pizza','juice','school','bus','css','mlb'];
 
 var gabriel = ['Gabriel','img/gabriel.png','bird','intro','quiet','cat','g','cloak','pizza','coffe','school','tie','js','gh'];
 
@@ -57,7 +57,11 @@ var shannon = ['Shannon','img/shannon.png','bird','intro','talk','dog','idk','cl
 
 var mikey = ['Mikey','img/mikey.png','bird','intro','music','dog','idk','cloak','dragon','tea','couch','tie','html','al'];
 
-var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan, davidL, cody, mark, matt, davidJ, gabriel, shannon, mikey];
+var maxM = ['Max M.','img/maxM.png','owl','intro','music','dog','g','cloak','healthy','water','school','queen','js','gh'];
+
+var shayne = ['Shayne','img/shayne.png','bird','intro','music','dog','idk','cloak','pizza','coffee','school','bat','css','gh'];
+
+var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan, davidL, cody, mark, matt, davidJ, gabriel, shannon, mikey, maxM, shayne];
 
 function buddyMaker () {
   for (var i = 0; i < nameArray.length; i++) {
