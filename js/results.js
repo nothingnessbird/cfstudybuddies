@@ -1,6 +1,6 @@
 'use strict';
 
-function Buddy (name,portrait,birdOwl,personality,noise,catDog,hogwarts,travel,beverage,loc,vehicle,lang,math) {
+function Buddy (name,portrait,birdOwl,personality,noise,catDog,hogwarts,travel,snacks,drinks,loc,vehicle,lang,math) {
   this.name = name;
   this.portrait = portrait;
   this.birdOwl = birdOwl;
@@ -9,7 +9,8 @@ function Buddy (name,portrait,birdOwl,personality,noise,catDog,hogwarts,travel,b
   this.catDog = catDog;
   this.hogwarts = hogwarts;
   this.travel = travel;
-  this.beverage = beverage;
+  this.snacks = snacks;
+  this.drinks = drinks;
   this.loc = loc;
   this.vehicle = vehicle;
   this.lang = lang;
@@ -22,7 +23,7 @@ var buddyArray = [];
 
 var user = [];
 
-var kinley = ['Kinley','img/kinley.jpg','owl','intro','talk','both','r','cloak','beer', 'couch','bus','js','al'];
+var kinley = ['Kinley','img/kinley.jpg','owl','intro','talk','both','r','cloak','dragon','beer', 'couch','bus','js','al'];
 
 var asha = ['Asha','img/asha.png','bird','extro','talk','both','h','backpack','dragon','water','couch','bus','js','al'];
 
@@ -68,12 +69,13 @@ function buddyMaker () {
     var buddyCatDog = nameArray[i][5];
     var buddyHogwarts = nameArray[i][6];
     var buddyTravel = nameArray[i][7];
-    var buddyBeverage = nameArray[i][8];
-    var buddyLoc = nameArray[i][9];
-    var buddyVehicle = nameArray[i][10];
-    var buddyLanguage = nameArray[i][11];
-    var buddyMathematician = nameArray[i][12];
-    var buddy = new Buddy(buddyName,buddyPortrait,buddyBirdOwl,buddyPersonality,buddyNoise,buddyCatDog,buddyHogwarts,buddyTravel,buddyBeverage,buddyLoc,buddyVehicle,buddyLanguage,buddyMathematician);
+    var buddySnacks = nameArray[i][8];
+    var buddyBeverage = nameArray[i][9];
+    var buddyLoc = nameArray[i][10];
+    var buddyVehicle = nameArray[i][11];
+    var buddyLanguage = nameArray[i][12];
+    var buddyMathematician = nameArray[i][13];
+    var buddy = new Buddy(buddyName,buddyPortrait,buddyBirdOwl,buddyPersonality,buddyNoise,buddyCatDog,buddyHogwarts,buddyTravel,buddySnacks,buddyBeverage,buddyLoc,buddyVehicle,buddyLanguage,buddyMathematician);
     buddyArray.push(buddy);
   };
 };

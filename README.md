@@ -3,6 +3,9 @@ Study Buddy Finder for Code Fellows 201
 
 
 
+# Shout Outs
+Kimmer found a really obnoxious error, thanks dude.
+
 (WorkFlow)
 *naming your branches that you work on*
 [letter of your name] -------[file name]-------[what feature you are working on]
