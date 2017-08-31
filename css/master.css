@@ -89,3 +89,7 @@ li a {
   text-align: center;
   margin: 20px;
 }
+.scrollable {
+    height: 100px;
+    overflow-y: auto;
+}
