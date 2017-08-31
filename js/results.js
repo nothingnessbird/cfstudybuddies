@@ -59,7 +59,9 @@ var mikey = ['Mikey','img/mikey.png','bird','intro','music','dog','idk','cloak',
 
 var maxM = ['Max M.','img/maxM.png','owl','intro','music','dog','g','cloak','healthy','water','school','queen','js','gh'];
 
-var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan, davidL, cody, mark, matt, davidJ, gabriel, shannon, mikey, maxM];
+var shayne = ['Shayne','img/shayne.png','bird','intro','music','dog','idk','cloak','pizza','coffee','school','bat','css','gh'];
+
+var nameArray = [kinley, asha, ariel, java, tiger, marco, chelsea, maxW, nathan, davidL, cody, mark, matt, davidJ, gabriel, shannon, mikey, maxM, shayne];
 
 function buddyMaker () {
   for (var i = 0; i < nameArray.length; i++) {
