@@ -20,19 +20,15 @@
           </tr>
           <tr>
             <td><label for="owlBird">Are you an early bird or a night owl?</label></td>
-            <td><select required class="questions" name="owlBird">
-              <option selected disabled>Please Choose One</option>
-              <option value="bird">Early Bird</option>
-              <option value="owl">Night Owl</option>
-            </select></td>
+            <td><input name="owlBird" type="radio" value="bird">Early Bird</input>
+              <input name="owlBird" type="radio" value="owl">Night Owl</input>
+            </td>
           </tr>
           <tr>
             <td><label for="personality">Are you an introvert or an extrovert?</label></td>
-            <td><select required class="questions" name="personality">
-              <option selected disabled>Please Choose One</option>
-              <option value="intro">Introvert</option>
-              <option value="extro">Extrovert</option>
-            </select></td>
+            <td><input name="personality" type="radio" value="intro">Introvert</input>
+              <input name="personality" type="radio" value="extro">Extrovert</input>
+            </td>
           </tr>
           <tr>
             <td><label for="noise">What noise level do you like while studying?</label></td>
@@ -124,12 +120,10 @@
         </tr>
         <tr>
         <td><label for="lang">Which 201 coding language do you think is your strongest?</label></td>
-        <td><select required class="questions" name="lang">
-          <option selected disabled>Please Choose One</option>
-          <option value="html">HTML</option>
-          <option value="css">CSS</option>
-          <option value="js">JavaScript</option>
-          </select></td>
+        <td><input name="lang" type="radio" value="html">HTML</input>
+          <input name="lang" type="radio" value="css">CSS</input>
+          <input name="lang" type="radio" value="js">JavaScript</input>
+        </td>
         </tr>
         <tr>
         <td><label for="math">Who comes closest to your perfect mathematician lunch-time companion?</label></td>
