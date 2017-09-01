@@ -69,7 +69,6 @@ li a {
   left: 25%;
   z-index: -100;
   width: 60%;
-  /*height: 35%;*/
 }
 
 #foreground {
@@ -106,7 +105,7 @@ li a {
   color: rgb(120, 235, 217);
   font-family: 'Cutive Mono', monospace;
   font-weight: bold;
-  font-size: larger;
+  font-size: 1.1em;
 }
 span {
   font-weight: bold;
