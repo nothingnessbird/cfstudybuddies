@@ -93,12 +93,12 @@ li a {
   border: 5px solid black;
   font-family: 'Open Sans', sans-serif;
 }
-#matchLinkDiv {
+#compLinkDiv {
   position: fixed;
   left: 30%;
   bottom: 19%
 }
-#matchLink {
+#compLink {
   text-decoration: none;
   color: rgb(120, 235, 217);
   font-family: 'Cutive Mono', monospace;
